@@ -1,0 +1,21 @@
+/* Medias Queries */
+
+.titulo{
+    color: red;
+
+}
+
+.texto{
+    color: aqua;
+}
+
+/* De 0px a 600px se aplica lo siguiente */
+
+@media (max-width:600px ){
+    .titulo{
+        color: blueviolet;
+    }
+    .texto{
+        color: bisque;
+    }
+}
