@@ -1,0 +1,11 @@
+.container-ubicacion {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    h2{
+        color: #fff;
+        display: block;
+    }
+}

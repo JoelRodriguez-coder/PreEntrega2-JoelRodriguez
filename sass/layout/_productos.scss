@@ -1,0 +1,28 @@
+
+body{
+    background-image: url(../img/footer/kul-fondo.jpg); 
+}
+
+.cards{
+    margin-bottom: 100px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .card{
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+.contenedor{
+    margin: 100px 0 100px;
+    h2{
+        padding: 20px;
+        color: #fff;
+    }
+}
+
+.accesorio-01{
+    overflow: hidden;
+}

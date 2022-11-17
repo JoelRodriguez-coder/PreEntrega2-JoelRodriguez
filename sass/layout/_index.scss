@@ -1,0 +1,30 @@
+//header index
+.nav-img{
+    height: 90px;
+}
+//npm run compile:sass para compilar
+//Main Index
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    h1{
+        font-family: 'Bungee Shade', cursive;
+        font-size: 80px;
+        text-align: center;
+        color: #f2cc38;
+    }
+
+    img{
+        width: 50%;
+    }
+    .texto-main {
+        align-self: center;
+    }
+}
+
+
+
+

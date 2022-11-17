@@ -1,0 +1,37 @@
+/*Base*/
+@import 'base/resets';
+
+/* Servicios , terminos y condiciones , Politica y privacidad*/
+@import 'layout/terminos';
+
+/* Index-inicio */
+@import 'layout/index';
+
+/* Productos */
+@import 'layout/productos';
+
+/* Contacto */
+@import 'layout/contacto';
+
+/* Footer */
+@import 'layout/footer';
+
+/* MediaQuery */
+@import 'components/mediasQuery';
+
+/* Nosotros */
+
+@import 'layout/nosotros';
+
+/* Ubicacion */
+
+@import 'layout/ubicacion';
+
+/* ropa */
+@import 'layout/ropa';
+/* stickers */
+@import 'layout/stickers';
+/* accesorios */
+@import 'layout/accesorios';
+/* tablas */
+@import 'layout/tablas';

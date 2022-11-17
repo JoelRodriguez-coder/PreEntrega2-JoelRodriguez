@@ -1,0 +1,212 @@
+/*Base*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none; }
+
+/* Servicios , terminos y condiciones , Politica y privacidad*/
+.terminos-text {
+  color: white;
+  width: 80%;
+  margin: auto; }
+
+/* Index-inicio */
+.nav-img {
+  height: 90px; }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .container h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #f2cc38; }
+  .container img {
+    width: 50%; }
+  .container .texto-main {
+    align-self: center; }
+
+/* Productos */
+body {
+  background-image: url(../img/footer/kul-fondo.jpg); }
+
+.cards {
+  margin-bottom: 100px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .cards .card {
+    padding: 10px;
+    margin: 20px; }
+
+.contenedor {
+  margin: 100px 0 100px; }
+  .contenedor h2 {
+    padding: 20px;
+    color: #fff; }
+
+.accesorio-01 {
+  overflow: hidden; }
+
+/* Contacto */
+.wrapper {
+  position: relative;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  .wrapper .title h1 {
+    color: #c5ecfd;
+    text-align: center;
+    margin-bottom: 25px; }
+
+.contact-form {
+  display: flex; }
+  .contact-form .input-fields {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%; }
+    .contact-form .input-fields .input {
+      color: white;
+      background: transparent;
+      border: 0px;
+      border-bottom: 2px solid #c5ecfd;
+      padding: 14.7px; }
+  .contact-form .msg {
+    width: 100%; }
+    .contact-form .msg textarea {
+      margin: 10px 0;
+      background: transparent;
+      border: 0px;
+      border-bottom: 2px solid #c5ecfd;
+      padding: 10px;
+      color: #ffffff;
+      width: 100%;
+      height: 212px; }
+    .contact-form .msg .btn {
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      border: 1px solid white;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5ecfd; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5ecfd; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5ecfd; }
+
+/* Footer */
+footer {
+  padding: 40px 0; }
+  footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff; }
+    footer .social a {
+      font-size: 30px;
+      color: inherit;
+      border: 1px solid #fff;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 10px; }
+      footer .social a:hover {
+        color: #3b4fe8; }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center; }
+    footer ul li {
+      display: inline-block;
+      padding: 0 15px; }
+      footer ul li a {
+        color: inherit;
+        text-decoration: none;
+        color: #fff; }
+  footer .copyrigth {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.3; }
+    footer .copyrigth:hover {
+      opacity: 1;
+      color: #fff; }
+
+/* MediaQuery */
+@media (max-width: 600px) {
+  .container img {
+    width: 65%; }
+  .texto-main h1 {
+    font-size: 50px; }
+  /* Map ubicacion*/
+  .mapa-frame {
+    width: 300px;
+    height: 300px; }
+  .wrapper {
+    top: 300px; }
+  .contact-form {
+    flex-direction: column; }
+  .msg textarea {
+    height: 80px; }
+  .input-fields,
+  .msg {
+    width: 100%; } }
+
+/* Nosotros */
+.carousel {
+  overflow: hidden;
+  width: 80%;
+  left: 11%; }
+
+.textos-nosotros {
+  background-color: rgba(0, 0, 0, 0.892);
+  color: white;
+  padding: 40px;
+  margin: 20px;
+  text-align: center; }
+
+/* Ubicacion */
+.container-ubicacion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center; }
+  .container-ubicacion h2 {
+    color: #fff;
+    display: block; }
+
+/* ropa */
+/* stickers */
+/* accesorios */
+/* tablas */

@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    .container img{
+        width: 65%;
+    }
+
+    .texto-main h1{
+        font-size: 50px;
+    }
+
+    /* Map ubicacion*/
+
+    .mapa-frame{
+        width: 300px;
+        height: 300px;
+    }
+    .wrapper{
+        top: 300px;
+    }
+    
+    .contact-form{
+        flex-direction: column;
+      }
+      .msg textarea{
+        height: 80px;
+      }
+      .input-fields,
+      .msg{
+        width: 100%;
+      }
+      
+}
